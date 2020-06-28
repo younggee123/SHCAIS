@@ -1,0 +1,135 @@
+body {
+    width: auto;
+    margin-top: 0px;
+    padding-top: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+}
+
+.intro {
+     background-color: white;
+}
+
+#a {
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+p.a {
+    padding-top: 20px;
+    margin-top: 0px;
+    color:aqua;
+    font-family: fantasy;
+    font-size: large;
+}
+
+p.ab {
+    color:hsl(71, 76%, 46%);
+    font-family: fantasy;
+    font-size: large;
+}
+
+p.abc {
+    color: hsl(218, 22%, 67%);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: large;
+}
+
+.whyus {
+    background-color: teal;
+    color:whitesmoke;
+    font-family: fantasy;
+    font-size: medium;
+    padding-bottom: 20px;
+}
+
+.whyusa{
+    margin-left: 0px;
+    padding-left: 40px;
+    margin-top: 0px;
+    padding-top: 20px;
+}
+
+.subscription {
+    background-color:darkcyan;
+    margin-left: 0px;
+    padding-left: 40px;
+    padding-top: 30px;
+    padding-bottom: 50px;
+    margin-bottom: 0px;
+}
+
+.whyusb {
+    margin-top: 0px;
+    color: white;
+    font-size: larger;
+}
+
+b.subb {
+    color: white;
+    font-size: xx-large; 
+    margin-right: 20px;
+}
+
+p.sub {
+    color: whitesmoke
+}
+
+p.acc {
+    color: white;
+    font-size: medium;
+}
+
+button a {
+    text-decoration: none;
+    color: white;
+    font-family: fantasy;
+    font-size: medium;
+}
+
+button{
+    background-color:hsl(71, 76%, 46%);
+    width: 80%;
+    height: 40px;
+    border-radius: 6px;
+}
+
+@media screen and (min-width: 600px) {
+    body {
+        width: auto;
+        margin-top: 0px;
+        padding-top: 0px;
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+
+    .intro {
+        margin-right: 200px;
+    }
+
+    .whyus {
+        float: right;
+        display: flex;
+        width: 50%;
+    }
+
+    button {
+        width: 30%;
+    }
+
+    .subscription {
+        height: 223px;  
+    }
+
+    p.sub {
+        font-size: large;
+    }
+
+    p.acc {
+        font-size: x-large;
+    }
+
+    h3.whyusb {
+        font-size: larger;
+    }
+}

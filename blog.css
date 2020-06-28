@@ -1,0 +1,214 @@
+body {
+    width: auto;
+    margin-top: 0px;
+    padding-top: 0px;
+    text-align: center;
+}
+
+.foot {
+    margin-top: 30px;
+    width: auto;
+}
+
+p.one {
+    font-size: 25px;
+    font-family: fantasy;
+    color: hsl(0, 0%, 59%);
+}
+
+b {
+    color: black;
+}
+p.two {
+    font-size: 18px;
+    font-family: fantasy;
+    color: hsl(0, 0%, 59%);
+}
+
+#button {
+}
+
+input {
+    margin-top: 5px;
+    border-radius: 16px;
+    height: 40px;
+    width: 260px;
+   }
+
+   button {
+       margin-top: 10px;
+       border-radius: 14px;
+       height: 40px;
+       width: 264px;
+       background-color: cornflowerblue;
+       color: cornsilk;
+   }
+
+   img.main {
+    width: 300px;
+    margin-top: 70px;
+  }
+
+  #social {
+      text-align: center;
+      font-size: 30px;
+      text-decoration: none;
+  }
+
+#fac {
+    background: white;
+    color: #385998;
+    text-decoration: none;
+}
+
+#tweet {
+    background: white;
+    color: #385998;
+    text-decoration: none;
+}
+
+#insta {
+    margin-left: 20px;
+    background: white;
+    color: #385998;
+    text-decoration: none;
+
+}
+
+@media screen and (min-width: 600px) {
+   .foot {
+     margin-top: 30px;
+      margin-left: 520px;
+      width: auto;
+   }
+
+   p.one {
+       margin-left: 420px;
+       font-size: xx-large;
+       font-family: fantasy;
+       color: hsl(0, 0%, 59%);
+   }
+
+   p#two {
+        margin-left: 500px;
+        font-size: medium;
+        font-family: fantasy;
+        color: hsl(0, 0%, 59%);
+   }
+
+
+   b {
+       color: black;
+   }
+
+   p.two {
+    margin-left: 400px;
+   }
+
+   #button {
+       margin-left: 420px;
+   }
+
+   input {
+    margin-top: 5px;
+    margin-left: -35px;
+    border-radius: 16px;
+    height: 40px;
+    width: 260px;
+   }
+
+   button {
+       margin-left: 10px;
+       border-radius: 14px;
+       height: 40px;
+       width: 140px;
+       background-color: cornflowerblue;
+       color: cornsilk;
+   }
+
+   img.main {
+     width: 500px;
+     margin-left: 390px;
+     margin-top: 50px;
+   }
+}
+
+
+@media (min-width: 1024px){
+    body {
+        width: auto;
+        margin-top: 0px;
+        padding-top: 0px;
+        text-align: center;
+    }
+    
+    .foot {
+        margin-top: 30px;
+        width: auto;
+    }
+    
+    p.one {
+        font-size: 25px;
+        font-family: fantasy;
+        color: hsl(0, 0%, 59%);
+    }
+    
+    b {
+        color: black;
+    }
+    p.two {
+        font-size: 18px;
+        font-family: fantasy;
+        color: hsl(0, 0%, 59%);
+    }
+    
+    #button {
+    }
+    
+    input {
+        margin-top: 5px;
+        border-radius: 16px;
+        height: 40px;
+        width: 260px;
+       }
+    
+       button {
+           margin-top: 10px;
+           border-radius: 14px;
+           height: 40px;
+           width: 264px;
+           background-color: cornflowerblue;
+           color: cornsilk;
+       }
+    
+       img.main {
+        width: 300px;
+        margin-top: 70px;
+      }
+    
+      #social {
+          text-align: center;
+          font-size: 30px;
+          text-decoration: none;
+      }
+    
+    #fac {
+        background: white;
+        color: #385998;
+        text-decoration: none;
+    }
+    
+    #tweet {
+        background: white;
+        color: #385998;
+        text-decoration: none;
+    }
+    
+    #insta {
+        margin-left: 20px;
+        background: white;
+        color: #385998;
+        text-decoration: none;
+    
+    }
+}
